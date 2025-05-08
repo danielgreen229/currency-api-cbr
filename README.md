@@ -130,13 +130,13 @@ curl http://localhost:8080/currency/api/rate/USD/2025-05-08
 
 Структура проекта
 config/
-  console.php    # Конфигурация консольного приложения
-  db.php         # Настройки базы данных
-  web.php        # Основная конфигурация
+    console.php    # Конфигурация консольного приложения
+    db.php         # Настройки базы данных
+    web.php        # Основная конфигурация
 controllers/
-  CurrencyController.php  # Обработчик API запросов
+    CurrencyController.php  # Обработчик API запросов
 commands/
-  UpdateCurrencyRatesCommand.php  # Команда обновления курсов
+    UpdateCurrencyRatesCommand.php  # Команда обновления курсов
 migrations/      # Миграции базы данных
 models/          # Модели данных
 
@@ -144,7 +144,7 @@ models/          # Модели данных
 
 ## 📜 Лицензия
 
-MIT © [Ваше Имя](https://github.com/danielgreen229)
+MIT © [danielgreen229](https://github.com/danielgreen229)
 
 ---
 
